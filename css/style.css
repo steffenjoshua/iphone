@@ -1,0 +1,45 @@
+body{
+	background-image: url(../image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	margin: 0px;
+	padding: 0px;
+	display: grid;
+	background: white;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+li{
+	padding: 15px;
+	list-style: none;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+	transition: all 0.2s ease-out;
+}
+li:hover{
+	color: grey;
+	transition: all 0.2s ease-out;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+.showcase{
+	background-image: url(../image/banner.jpg);
+	height: 450px;
+	border: solid 2px white;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+p{
+	text-align: center;
+	border: white 2px solid;
+	padding: 20px;
+}
